@@ -1,0 +1,61 @@
+.loginCard {
+  width: 400px;
+}
+.forgetPass {
+  position: absolute;
+  background-color: white !important;
+  right: 20px;
+  bottom: 117px;
+  border: none !important;
+  box-shadow: none !important;
+  color: #f9a51a !important;
+  text-decoration: underline;
+}
+.btnLogin {
+  background-color: #f9a51a !important;
+  border: none !important;
+  color: black !important;
+}
+.createAccount {
+  color: #f9a51a !important;
+  padding-top: 0 !important;
+  margin-left: 5px;
+  text-decoration: underline;
+  background-color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.otherLogin {
+  width: 320px;
+}
+.fb {
+  background-color: white !important;
+  border: 0.5px solid lightgray !important;
+  margin-bottom: 5px;
+  color: black !important;
+  border-radius: 30px !important;
+  display: flex !important;
+  justify-content: space-between;
+  padding-right: 60px !important;
+}
+.google {
+  background-color: white !important;
+  border: 0.5px solid lightgray !important;
+  color: black !important;
+  border-radius: 30px !important;
+  display: flex !important;
+  justify-content: space-between;
+  padding-right: 60px !important;
+}
+.fb img,
+.google img {
+  width: 30px;
+}
+.form-group input {
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  border-radius: 0 !important;
+}
+
+/* code for header  */

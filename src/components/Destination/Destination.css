@@ -1,0 +1,37 @@
+.bookingForm {
+  width: 400px;
+  margin-right: 100px;
+}
+.DestinationDetails {
+  width: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.DestinationDetails h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.DestinationDetails p {
+  font-size: 12px;
+  font-weight: 100;
+}
+.destination {
+  visibility: hidden;
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  width: 80%;
+}
+.date input {
+  width: 75%;
+}
+.bookingBtn {
+  background-color: #f9a51a !important;
+  border: none !important;
+  color: black !important;
+  text-decoration: none !important;
+  text-align: center;
+  outline: none !important;
+}

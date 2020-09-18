@@ -1,0 +1,12 @@
+.room img {
+  width: 200px;
+  height: 155px;
+}
+.hotelDetails p {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  margin: 1px 0;
+}
+.hotelDetails span {
+  font-size: 13px;
+}

@@ -1,0 +1,40 @@
+.logo img {
+  width: 100px;
+  filter: brightness(100);
+}
+.search {
+  width: 30% !important;
+}
+#basic-addon1 {
+  background-color: transparent !important;
+  border-right: none !important;
+  color: white;
+}
+.searchInput {
+  color: white !important;
+  border-left: none !important;
+  background-color: transparent !important;
+}
+.searchInput::placeholder {
+  color: white !important;
+}
+.searchInput:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar {
+  background-color: transparent !important;
+}
+.navbar .nav-link {
+  color: white !important;
+}
+.login {
+  background-color: #f9a51a !important;
+  border: none !important;
+  color: black !important;
+  padding: 8px 25px !important;
+}
+.buttonText {
+  color: black !important;
+  /* width: 200px; */
+}
