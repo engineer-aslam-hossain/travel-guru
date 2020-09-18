@@ -268,7 +268,7 @@ const Login = () => {
               required
             />
             <Form.Control.Feedback type='invalid'>
-              Please provide Password
+              Please provide Password with number
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group controlId='formBasicPassword'>
@@ -282,7 +282,7 @@ const Login = () => {
               />
             )}
             <Form.Control.Feedback type='invalid'>
-              Please provide Confirm Password
+              Please provide Confirm Password with number
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group controlId='formBasicCheckbox' className='w-50 '>
