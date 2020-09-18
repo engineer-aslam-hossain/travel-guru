@@ -14,7 +14,7 @@ function App() {
     <UserContext.Provider value={[LoggedInUser, SetLoggedInUser]}>
       <Router>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path={process.env.PUBLIC_URL + "/"}>
             <Home />
           </Route>
           <Route path='/login'>

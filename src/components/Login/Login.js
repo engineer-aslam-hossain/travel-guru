@@ -93,7 +93,14 @@ const Login = () => {
   ///////// create  user ///////////////////
   const buttonHandler = e => {
     e.preventDefault();
-
+    const form = e.currentTarget;
+    if (form.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    if (User.password !== User.confirmPassword) {
+      alert("password does not match try again");
+    }
     if (User.email && User.password) {
       firebase
         .auth()
@@ -114,6 +121,7 @@ const Login = () => {
           SetUser(newUserInfo);
         });
     }
+    setValidated(true);
   };
   ///////// sign in  user ///////////////////
   const submitHandler = e => {
